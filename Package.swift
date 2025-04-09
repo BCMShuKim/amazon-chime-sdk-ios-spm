@@ -8,7 +8,7 @@ let SDKMachineLearningVersion = "0.3.1"
 
 // Hosting url where the release artifacts are hosted.
 let hostingUrl = "https://amazon-chime-sdk-ios.s3.amazonaws.com"
-let forkHostingUrl = "https://github.com/BCMShuKim/amazon-chime-sdk-ios/releases/download/v0.27.1-loggerfix"
+let forkHostingUrl = "https://github.com/BCMShuKim/amazon-chime-sdk-ios/releases/download/v0.27.1-bugfix"
 
 // Checksums for SDKs to verify that the hosted archive file matches the archive declared in the manifest file.
 let SDKChecksum = "d49cdd47cdadad79f2418927f1e08935b2f03e7de1b2021698a5441f0bd53e84"
