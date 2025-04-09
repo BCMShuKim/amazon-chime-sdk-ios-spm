@@ -7,7 +7,7 @@ let SDKMediaVersion = "0.24.0"
 let SDKMachineLearningVersion = "0.3.1"
 
 // Hosting url where the release artifacts are hosted.
-let hostingUrl = "https://amazon-chime-sdk-ios.s3.amazonaws.com"
+let hostingUrl = "https://github.com/BCMShuKim/amazon-chime-sdk-ios/releases/download/v0.27.1-loggerfix"
 
 // Checksums for SDKs to verify that the hosted archive file matches the archive declared in the manifest file.
 let SDKChecksum = "d49cdd47cdadad79f2418927f1e08935b2f03e7de1b2021698a5441f0bd53e84"
@@ -24,8 +24,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AmazonChimeSDK",
-            url: "\(hostingUrl)/sdk/\(SDKVersion)/spm/AmazonChimeSDK-\(SDKVersion).zip",
-            checksum: SDKChecksum
+            url: "\(hostingUrl)/AmazonChimeSDK-LoggerFixed.zip",
+            checksum: "7ae424612a29fe3f669abbe4de1bb77249ea0b5da9ba836b137288358fba5876"
         ),
         .binaryTarget(
             name: "AmazonChimeSDKMedia",
