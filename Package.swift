@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "AmazonChimeSDK",
             url: "\(forkHostingUrl)/AmazonChimeSDK-LoggerFixed.zip",
-            checksum: "673abab5185156aa111b6df7b811c7887b55a908208ec2174cd527ce17fe8443"
+            checksum: "66823416764015cef6cf117f4e9c414bfe6f2500f9ca29aa12e8ccd22ffa9c90"
         ),
         .binaryTarget(
             name: "AmazonChimeSDKMedia",
